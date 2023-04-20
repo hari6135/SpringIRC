@@ -12,6 +12,6 @@ public class ValueAnnotation
 	@GetMapping("/Value")
 	public String Print()
 	{
-		return "I Love "+pname;
+		return "I Like "+pname;
 	}
 }
