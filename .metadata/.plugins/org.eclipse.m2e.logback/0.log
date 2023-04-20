@@ -379,3 +379,31 @@
 2023-04-20 22:07:44,727 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-04-20 22:07:44,737 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-04-20 22:07:44,739 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\Day2-ValueAnnotation\src\test\resources
+2023-04-20 22:23:37,296 [Worker-52: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: IRC:JsonIgnore:0.0.1-SNAPSHOT @ C:\Users\haria\OneDrive\Desktop\SpringIRC\JsonIgnore\pom.xml.
+2023-04-20 22:23:38,143 [Worker-52: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JsonIgnore/src/main/java
+2023-04-20 22:23:38,144 [Worker-52: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JsonIgnore/src/main/resources
+2023-04-20 22:23:38,149 [Worker-52: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JsonIgnore/src/main/resources
+2023-04-20 22:23:38,154 [Worker-52: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JsonIgnore/src/test/java
+2023-04-20 22:23:39,284 [Worker-52: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2023-04-20 22:23:39,286 [Worker-52: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-20 22:23:39,373 [Worker-52: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: IRC:JsonIgnore:0.0.1-SNAPSHOT @ C:\Users\haria\OneDrive\Desktop\SpringIRC\JsonIgnore\pom.xml.
+2023-04-20 22:23:39,503 [Worker-52: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JsonIgnore/src/main/java
+2023-04-20 22:23:39,504 [Worker-52: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JsonIgnore/src/main/resources
+2023-04-20 22:23:39,504 [Worker-52: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JsonIgnore/src/main/resources
+2023-04-20 22:23:39,504 [Worker-52: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JsonIgnore/src/test/java
+2023-04-20 22:23:39,621 [Worker-52: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-04-20 22:23:40,006 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-20 22:23:40,014 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-20 22:23:40,016 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\JsonIgnore\src\test\resources
+2023-04-20 22:25:58,439 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-20 22:25:58,448 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-20 22:25:58,450 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\JsonIgnore\src\test\resources
+2023-04-20 22:43:52,340 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-20 22:43:52,346 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-20 22:43:52,349 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\JsonIgnore\src\test\resources
+2023-04-20 22:48:03,222 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-20 22:48:03,236 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-20 22:48:03,241 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\JsonIgnore\src\test\resources
+2023-04-20 22:48:30,995 [Worker-68: Launching JsonIgnore - JsonIgnoreApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-20 22:48:31,002 [Worker-68: Launching JsonIgnore - JsonIgnoreApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-20 22:48:31,005 [Worker-68: Launching JsonIgnore - JsonIgnoreApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\JsonIgnore\src\test\resources
