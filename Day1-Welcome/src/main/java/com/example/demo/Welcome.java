@@ -1,4 +1,4 @@
-package com.example.demo.Welcome;
+package com.example.demo;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,7 +10,6 @@ public class Welcome
 	@GetMapping("/Welcome")
 	public String Welcome()
 	{
-		return "Welcome to REST API"+pname;
+		return "Welcome to REST API "+pname;
 	}
-	
 }
