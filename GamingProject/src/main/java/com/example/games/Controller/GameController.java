@@ -38,7 +38,7 @@ public class GameController
 	
 	//getting the given details
 	@GetMapping("/gaming/{id}")
-	public  Optional<GameModel> getdetails(@PathVariable ("id")int id)
+	public  Optional<GameModel> getdetails(@PathVariable("id")int id)
 	{
 		return cserv.getdetails(id);
 	}
@@ -49,4 +49,5 @@ public class GameController
 	{
 		return cserv.updateInfo(id);
 	}
+	
 }

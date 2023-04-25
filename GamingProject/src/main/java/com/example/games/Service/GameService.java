@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.example.games.Model.GameModel;
 import com.example.games.Repository.GameRepo;
 
-@Service
+@Service 
 public class GameService 
 {
 	@Autowired
