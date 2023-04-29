@@ -1,9 +1,14 @@
 package com.example.games.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+
 
 import com.example.games.Model.GameModel;
 import com.example.games.Repository.GameRepo;
@@ -28,9 +33,57 @@ public class GameService
 		// TODO Auto-generated method stub
 		return repo.findById(id);
 	}
-		public GameModel updateInfo(GameModel id)
+		public GameModel updatedetails(GameModel id)
 		{
+			// TODO Auto-generated method stub
 			return repo.saveAndFlush(id);
 		}
-	
+
+		public List<GameModel> sortasc(String pname) {
+			// TODO Auto-generated method stub
+			return repo.findAll(Sort.by(pname).ascending());
+		}
+
+		public List<GameModel> sortdesc(String pname) {
+			// TODO Auto-generated method stub
+			return repo.findAll(Sort.by(pname).descending());
+		}
+
+		public List<GameModel> pagination(int pnu, int psize) {
+			// TODO Auto-generated method stub
+			Page<GameModel> p=repo.findAll(PageRequest.of(pnu, psize));
+			return p.getContent();
+		}
+		public List<GameModel> paginationsorting(int pnu, int psize, String pname) {
+			// TODO Auto-generated method stub
+			Page<GameModel>p= repo.findAll(PageRequest.of(pnu, psize, Sort.by(pname).descending()));
+			return p.getContent();		}
+
+		public String checklogin(String username, String password) {
+			// TODO Auto-generated method stub
+			GameModel user=repo.findByUsername(username);
+			if(user==null)
+			{
+				return"No User Found";
+			}
+			else
+			{
+				if(user.getPassword().equals(password))
+				{
+					return"Login successfull";
+				}
+				else
+				{
+					return"Login failed";
+				}
+			}
+		}
+		public GameModel adduser(GameModel game)
+		{
+			return repo.save(game);
+		}
+		public List<GameModel>getuser()
+		{
+			return repo.findAll();
+		}
 }

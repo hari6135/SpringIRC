@@ -5,98 +5,130 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="GameDetails")
+@Table(name="Gamedetails")
 public class GameModel 
 {
 	@Id
-	private int a_Id;
+	private int Id;
 	
-	private String b_Game_Name;
+	private String GameName;
 	
-	private int d_Release_Year;
+	private int ReleaseYear;
 	
-	private String e_Publisher_Name;
+	private String PublisherName;
 	
-	private String c_Game_Genre;
+	private String GameGenre;
 	
-	private String f_Platform_Name;
+	private String PlatformName;
 	
-	private String g_CPU_Requirements;
+	private String CPURequirements;
 	
-	private String h_GPU_Requirements;
+	private String GPURequirements;
 	
-	private String i_Game_Size;
+	private String GameSize;
+	
+	private int userid;
+	
+	private String username;
+	
+	private String password;
 
-	public int getA_Id() {
-		return a_Id;
+	public int getUserid() {
+		return userid;
 	}
 
-	public void setA_Id(int a_Id) {
-		this.a_Id = a_Id;
+	public void setUserid(int userid) {
+		this.userid = userid;
 	}
 
-	public String getB_Game_Name() {
-		return b_Game_Name;
+	public String getUsername() {
+		return username;
 	}
 
-	public void setB_Game_Name(String b_Game_Name) {
-		this.b_Game_Name = b_Game_Name;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
-	public int getD_Release_Year() {
-		return d_Release_Year;
+	public String getPassword() {
+		return password;
 	}
 
-	public void setD_Release_Year(int d_Release_Year) {
-		this.d_Release_Year = d_Release_Year;
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
-	public String getE_Publisher_Name() {
-		return e_Publisher_Name;
+	public int getId() {
+		return Id;
 	}
 
-	public void setE_Publisher_Name(String e_Publisher_Name) {
-		this.e_Publisher_Name = e_Publisher_Name;
+	public void setId(int id) {
+		Id = id;
 	}
 
-	public String getC_Game_Genre() {
-		return c_Game_Genre;
+	public String getGameName() {
+		return GameName;
 	}
 
-	public void setC_Game_Genre(String c_Game_Genre) {
-		this.c_Game_Genre = c_Game_Genre;
+	public void setGameName(String gameName) {
+		GameName = gameName;
 	}
 
-	public String getF_Platform_Name() {
-		return f_Platform_Name;
+	public int getReleaseYear() {
+		return ReleaseYear;
 	}
 
-	public void setF_Platform_Name(String f_Platform_Name) {
-		this.f_Platform_Name = f_Platform_Name;
+	public void setReleaseYear(int releaseYear) {
+		ReleaseYear = releaseYear;
 	}
 
-	public String getG_CPU_Requirements() {
-		return g_CPU_Requirements;
+	public String getPublisherName() {
+		return PublisherName;
 	}
 
-	public void setG_CPU_Requirements(String g_CPU_Requirements) {
-		this.g_CPU_Requirements = g_CPU_Requirements;
+	public void setPublisherName(String publisherName) {
+		PublisherName = publisherName;
 	}
 
-	public String getH_GPU_Requirements() {
-		return h_GPU_Requirements;
+	public String getGameGenre() {
+		return GameGenre;
 	}
 
-	public void setH_GPU_Requirements(String h_GPU_Requirements) {
-		this.h_GPU_Requirements = h_GPU_Requirements;
+	public void setGameGenre(String gameGenre) {
+		GameGenre = gameGenre;
 	}
 
-	public String getI_Game_Size() {
-		return i_Game_Size;
+	public String getPlatformName() {
+		return PlatformName;
 	}
 
-	public void setI_Game_Size(String i_Game_Size) {
-		this.i_Game_Size = i_Game_Size;
+	public void setPlatformName(String platformName) {
+		PlatformName = platformName;
 	}
+
+	public String getCPURequirements() {
+		return CPURequirements;
+	}
+
+	public void setCPURequirements(String cPURequirements) {
+		CPURequirements = cPURequirements;
+	}
+
+	public String getGPURequirements() {
+		return GPURequirements;
+	}
+
+	public void setGPURequirements(String gPURequirements) {
+		GPURequirements = gPURequirements;
+	}
+
+	public String getGameSize() {
+		return GameSize;
+	}
+
+	public void setGameSize(String gameSize) {
+		GameSize = gameSize;
+	}
+
+	
 }
 	
