@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.games.Model.GameModel;
@@ -27,15 +26,6 @@ public class GameController
 	@Autowired
 	public GameService cserv;
 	
-	//login
-	@PostMapping("/login")
-	public String login(@RequestBody Map<String, String> logindata)
-	{
-		String username = logindata.get("username");
-		String password = logindata.get("password");
-		String result = cserv.checklogin(username,password);
-		return result;
-	}
 	//posting the given details
 	@PostMapping("/gaming")
 	public GameModel savedetails(@RequestBody GameModel obj)
@@ -81,14 +71,14 @@ public class GameController
 	}
 	
 	//pagination data
-	@GetMapping("/pagination/")
+	@GetMapping("/pagination/{pnu}/{psize}")
 	public List<GameModel> pagination(@PathVariable("pnu")int pnu,@PathVariable("psize")int psize)
 	{
 		return cserv.pagination(pnu,psize);
 	}
 	
 	//pagination and sorting 
-	@GetMapping("/pagination/{pnu}/{psize}")
+	@GetMapping("/pagination/{pnu}/{psize}/{pname}")
     public List<GameModel>paginationsorting(@PathVariable("pnu")int pnu,@PathVariable("psize")int psize,@PathVariable("pname")String pname)
     {
         return cserv.paginationsorting(pnu,psize,pname);

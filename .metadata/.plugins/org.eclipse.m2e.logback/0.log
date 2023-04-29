@@ -3881,3 +3881,126 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2023-04-29 09:33:40,625 [Worker-144: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
 2023-04-29 09:33:40,760 [Worker-144: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
 2023-04-29 09:33:40,842 [Worker-144: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 11:39:02,457 [Worker-176: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 11:39:02,575 [Worker-176: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 11:39:02,668 [Worker-176: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 11:40:08,516 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:40:08,531 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:40:08,534 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:42:43,702 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:42:43,706 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:42:43,709 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:43:41,025 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:43:41,033 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:43:41,037 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:44:02,046 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:44:02,051 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:44:02,054 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:44:26,593 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:44:26,599 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:44:26,602 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:44:39,749 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:44:39,755 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:44:39,759 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:45:19,019 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:45:19,023 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:45:19,026 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:46:18,728 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:46:18,732 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:46:18,737 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:46:24,863 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:46:24,867 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:46:24,870 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:46:37,154 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:46:37,164 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:46:37,169 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:48:23,815 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:48:23,820 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:48:23,823 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:48:35,015 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:48:35,019 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:48:35,023 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:49:01,355 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:49:01,359 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:49:01,362 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:50:09,971 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:50:09,977 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:50:09,980 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:50:40,122 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:50:40,125 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:50:40,128 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:52:42,773 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:52:42,778 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:52:42,782 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:53:25,948 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:53:25,952 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:53:25,954 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:54:48,954 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:54:48,957 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:54:48,960 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:54:56,623 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:54:56,628 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:54:56,631 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:55:03,046 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:55:03,051 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:55:03,053 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:55:32,313 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:55:32,317 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:55:32,320 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:56:13,640 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:56:13,643 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:56:13,645 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:58:40,212 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:58:40,217 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:58:40,219 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:59:44,657 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:59:44,662 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:59:44,664 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 11:59:57,546 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 11:59:57,554 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 11:59:57,557 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 12:00:01,547 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 12:00:01,552 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 12:00:01,554 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 12:00:49,743 [Worker-181: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:00:49,831 [Worker-181: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:00:49,916 [Worker-181: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:01:18,283 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 12:01:18,288 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 12:01:18,291 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 12:02:08,162 [Worker-176: Launching GamingProject - GamingProjectApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 12:02:08,166 [Worker-176: Launching GamingProject - GamingProjectApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 12:02:08,169 [Worker-176: Launching GamingProject - GamingProjectApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 12:02:08,338 [Worker-176: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:02:08,431 [Worker-176: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:02:08,527 [Worker-176: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:02:20,421 [Worker-174: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:02:20,543 [Worker-174: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:02:20,640 [Worker-174: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:03:20,178 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 12:03:20,181 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 12:03:20,183 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 12:05:13,344 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 12:05:13,349 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 12:05:13,352 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 12:05:23,472 [Worker-180: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:05:23,566 [Worker-180: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:05:23,665 [Worker-180: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:17:30,552 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 12:17:30,557 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 12:17:30,559 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 12:17:35,219 [Worker-186: Launching GamingProject - GamingProjectApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 12:17:35,222 [Worker-186: Launching GamingProject - GamingProjectApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 12:17:35,225 [Worker-186: Launching GamingProject - GamingProjectApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 12:17:35,403 [Worker-186: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:17:35,506 [Worker-186: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 12:17:35,612 [Worker-186: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 13:10:06,888 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 13:10:06,898 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 13:10:06,900 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 13:12:31,345 [Worker-197: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-29 13:12:31,352 [Worker-197: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-04-29 13:12:31,354 [Worker-197: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\GamingProject\src\test\resources
+2023-04-29 13:12:33,865 [Worker-195: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 13:12:33,931 [Worker-195: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes
+2023-04-29 13:12:34,004 [Worker-195: Launching GamingProject - GamingProjectApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Day1-HelloWorld: IRC:Day1-HelloWorld:0.0.1-SNAPSHOT with classifier null to /Day1-HelloWorld/target/classes

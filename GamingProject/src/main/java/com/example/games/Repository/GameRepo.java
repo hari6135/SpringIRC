@@ -16,9 +16,7 @@ import jakarta.transaction.Transactional;
 
 public interface GameRepo extends JpaRepository<GameModel, Integer>
 {
-	
-	GameModel findByUsername(String username);
-	
+		
 	@Query(value="select *from game_details",nativeQuery = true)
 	public List<GameModel>getalldata();
 	

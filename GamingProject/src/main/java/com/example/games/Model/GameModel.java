@@ -9,124 +9,94 @@ import jakarta.persistence.Table;
 public class GameModel 
 {
 	@Id
-	private int Id;
+	private int id;
 	
-	private String GameName;
+	private String gname;
 	
-	private int ReleaseYear;
+	private int year;
 	
-	private String PublisherName;
+	private String publisher;
 	
-	private String GameGenre;
+	private String genre;
 	
-	private String PlatformName;
+	private String platform;
 	
-	private String CPURequirements;
+	private String cpu;
 	
-	private String GPURequirements;
+	private String gpu;
 	
-	private String GameSize;
-	
-	private int userid;
-	
-	private String username;
-	
-	private String password;
-
-	public int getUserid() {
-		return userid;
-	}
-
-	public void setUserid(int userid) {
-		this.userid = userid;
-	}
-
-	public String getUsername() {
-		return username;
-	}
-
-	public void setUsername(String username) {
-		this.username = username;
-	}
-
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
+	private String size;
 
 	public int getId() {
-		return Id;
+		return id;
 	}
 
 	public void setId(int id) {
-		Id = id;
+		this.id = id;
 	}
 
-	public String getGameName() {
-		return GameName;
+	public String getGname() {
+		return gname;
 	}
 
-	public void setGameName(String gameName) {
-		GameName = gameName;
+	public void setGname(String gname) {
+		this.gname = gname;
 	}
 
-	public int getReleaseYear() {
-		return ReleaseYear;
+	public int getYear() {
+		return year;
 	}
 
-	public void setReleaseYear(int releaseYear) {
-		ReleaseYear = releaseYear;
+	public void setYear(int year) {
+		this.year = year;
 	}
 
-	public String getPublisherName() {
-		return PublisherName;
+	public String getPublisher() {
+		return publisher;
 	}
 
-	public void setPublisherName(String publisherName) {
-		PublisherName = publisherName;
+	public void setPublisher(String publisher) {
+		this.publisher = publisher;
 	}
 
-	public String getGameGenre() {
-		return GameGenre;
+	public String getGenre() {
+		return genre;
 	}
 
-	public void setGameGenre(String gameGenre) {
-		GameGenre = gameGenre;
+	public void setGenre(String genre) {
+		this.genre = genre;
 	}
 
-	public String getPlatformName() {
-		return PlatformName;
+	public String getPlatform() {
+		return platform;
 	}
 
-	public void setPlatformName(String platformName) {
-		PlatformName = platformName;
+	public void setPlatform(String platform) {
+		this.platform = platform;
 	}
 
-	public String getCPURequirements() {
-		return CPURequirements;
+	public String getCpu() {
+		return cpu;
 	}
 
-	public void setCPURequirements(String cPURequirements) {
-		CPURequirements = cPURequirements;
+	public void setCpu(String cpu) {
+		this.cpu = cpu;
 	}
 
-	public String getGPURequirements() {
-		return GPURequirements;
+	public String getGpu() {
+		return gpu;
 	}
 
-	public void setGPURequirements(String gPURequirements) {
-		GPURequirements = gPURequirements;
+	public void setGpu(String gpu) {
+		this.gpu = gpu;
 	}
 
-	public String getGameSize() {
-		return GameSize;
+	public String getSize() {
+		return size;
 	}
 
-	public void setGameSize(String gameSize) {
-		GameSize = gameSize;
+	public void setSize(String size) {
+		this.size = size;
 	}
 
 	

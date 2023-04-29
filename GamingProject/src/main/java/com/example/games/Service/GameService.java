@@ -57,33 +57,6 @@ public class GameService
 		public List<GameModel> paginationsorting(int pnu, int psize, String pname) {
 			// TODO Auto-generated method stub
 			Page<GameModel>p= repo.findAll(PageRequest.of(pnu, psize, Sort.by(pname).descending()));
-			return p.getContent();		}
-
-		public String checklogin(String username, String password) {
-			// TODO Auto-generated method stub
-			GameModel user=repo.findByUsername(username);
-			if(user==null)
-			{
-				return"No User Found";
+			return p.getContent();		
 			}
-			else
-			{
-				if(user.getPassword().equals(password))
-				{
-					return"Login successfull";
-				}
-				else
-				{
-					return"Login failed";
-				}
-			}
-		}
-		public GameModel adduser(GameModel game)
-		{
-			return repo.save(game);
-		}
-		public List<GameModel>getuser()
-		{
-			return repo.findAll();
-		}
 }
