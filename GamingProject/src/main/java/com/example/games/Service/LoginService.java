@@ -1,6 +1,7 @@
 package com.example.games.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -46,4 +47,14 @@ public class LoginService
 		// TODO Auto-generated method stub
 		return lrep.save(id);
 	}
+
+	public Optional<LoginModel> getdetails(int id) {
+		// TODO Auto-generated method stub
+		return lrep.findById(id);
+	}
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		lrep.deleteById(id);
+	}
+
 }
