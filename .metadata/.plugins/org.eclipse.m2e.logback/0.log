@@ -6441,3 +6441,7 @@ Caused by: java.lang.Exception: File not found: D:\REACT JS DATABASES\fullstack-
 2023-05-08 15:30:43,331 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-05-08 15:30:43,335 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-05-08 15:30:43,338 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\WorkShop\src\test\resources
+2023-05-08 15:32:51,263 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: IRC:WorkShop:0.0.1-SNAPSHOT @ C:\Users\haria\OneDrive\Desktop\SpringIRC\WorkShop\pom.xml.
+2023-05-08 15:32:51,604 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-05-08 15:32:51,618 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-05-08 15:32:51,622 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\haria\OneDrive\Desktop\SpringIRC\WorkShop\src\test\resources
