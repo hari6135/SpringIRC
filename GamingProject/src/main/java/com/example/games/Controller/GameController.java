@@ -78,7 +78,7 @@ public class GameController
 	}
 	
 	//pagination data
-	@Tag(name="Pagination",description = "Sorting data in ascending order")
+	@Tag(name="Pagination",description = "Pagination")
 	@GetMapping("/pagination/{pnu}/{psize}")
 	public List<GameModel> pagination(@PathVariable("pnu")int pnu,@PathVariable("psize")int psize)
 	{
@@ -86,6 +86,7 @@ public class GameController
 	}
 	
 	//pagination and sorting 
+	@Tag(name="Pagination ans Sorting",description = "Pagination and Sorting Details")
 	@GetMapping("/pagination/{pnu}/{psize}/{pname}")
     public List<GameModel>paginationsorting(@PathVariable("pnu")int pnu,@PathVariable("psize")int psize,@PathVariable("pname")String pname)
     {
@@ -96,6 +97,7 @@ public class GameController
 	public GameRepo ir;
 	
 	//get all data using Query
+	@Tag(name="Get Details",description = "Get all details using Native Query")
 	@GetMapping("/savegame")
 	public List<GameModel>getdata()
 	{
@@ -103,6 +105,7 @@ public class GameController
 	}
 	
 	//get the required data by id using Query
+	@Tag(name="Get Details !",description = "Get details by id using Native Query")
 	@GetMapping("/savegame/{id}")
 	public List<GameModel>getname(@PathVariable("id")int id)
 	{
@@ -110,6 +113,7 @@ public class GameController
 	}
 	
 	//selecting the required data using start end query
+	@Tag(name="Selecting Data",description = "Getting the details using start and end QUERY method")
 	@GetMapping("/startend/{start}/{end}")
 	public List<GameModel> startendid(@PathVariable("start")int start,@PathVariable("end")int end)
 	{
@@ -118,6 +122,7 @@ public class GameController
 	
 	//deleting the details using start end query
 	@DeleteMapping("/delete/{id}/{name}")
+	@Tag(name="Delete",description = "Deleting the details using start and end QUERY method")
 	public String deleteid(@PathVariable("id")int id,@PathVariable("name")String name)
 	{
 		ir.deleteid(id, name);
@@ -125,6 +130,7 @@ public class GameController
 	}
 	
 	//updating the given details using query
+	@Tag(name="Update Data",description = "Updating the details using QUERY method")
 	@PutMapping("/qup/{name}/{id}")
 	public String updatee(@PathVariable("name")String name,@PathVariable("id")int id)
 	{
@@ -133,6 +139,7 @@ public class GameController
 	}
 	
 	//get by name using jpql
+	@Tag(name="Getting Data",description = "Getting the details using JPQL QUERY")
 	@GetMapping("/jpqlget/{name}")
 	public List<GameModel>getdetailname(@PathVariable("name")String name)
 	{
@@ -140,6 +147,7 @@ public class GameController
 	}
 	
 	//jpql query for getting the details by name
+	@Tag(name="Getting Data",description = "Getting the details using start and end JPQL QUERY method")
 	@GetMapping("/getbtw/{start}/{end}")
 	public List<GameModel>getbtw(@PathVariable("start")int start,@PathVariable("end")int end)
 	{
@@ -147,6 +155,7 @@ public class GameController
 		return ir.getbtw(start, end);
 	}
 	//delete by jpql query by id
+	@Tag(name="Deleting Data",description = "Deleting the details using id JPQL QUERY method")
 	@DeleteMapping("/deletejpql/{id}")
 	public String deletejpqlid(@PathVariable("id")int id)
 	{
@@ -155,6 +164,7 @@ public class GameController
 	}
 	
 	//update by jpql query
+	@Tag(name="Updating Data",description = "Updating the details using id JPQL QUERY method")
 	@PutMapping("/jpqlup/{a}/{b}")
 	public void updatejpql(@PathVariable("a")String a,@PathVariable("b")int b)
 	{

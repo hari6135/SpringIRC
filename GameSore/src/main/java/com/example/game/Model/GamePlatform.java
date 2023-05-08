@@ -11,6 +11,6 @@ public class GamePlatform
 	@Id
 	private int sno;
 	private String platformname;
-	private String 
+	private String pakdk;
 	
 }

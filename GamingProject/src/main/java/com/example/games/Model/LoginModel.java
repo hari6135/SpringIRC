@@ -14,6 +14,46 @@ public class LoginModel
 	private String username;
 	
 	private String password;
+	
+	private int age;
+	
+	private String email;
+	
+	private String phoneno;
+	
+	private String gender;
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPhoneno() {
+		return phoneno;
+	}
+
+	public void setPhoneno(String phoneno) {
+		this.phoneno = phoneno;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
 
 	public int getUserid() {
 		return userid;

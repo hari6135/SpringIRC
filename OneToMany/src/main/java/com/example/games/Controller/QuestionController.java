@@ -32,11 +32,11 @@ public class QuestionController
 		qrepo.deleteById(id);
 		return "Deleted successfully";
 	}
-	@GetMapping("/get")
 	//getting the details by joining
+	@GetMapping("/get")
 	public  String getdetails()
 	{
-		qrepo.FindAll();
+		qrepo.getalldata();
 		return "Get complete";
 	}
 }
