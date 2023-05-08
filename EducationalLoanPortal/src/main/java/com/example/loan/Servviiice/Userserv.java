@@ -12,25 +12,25 @@ import com.example.loan.Repositories.UserRepo;
 public class Userserv 
 {
 	@Autowired
-	public UserRepo urep;
+	public UserRepo urepo;
 
 	public List<UserModel> getuser() {
 		// TODO Auto-generated method stub
-		return urep.findAll();
+		return urepo.findAll();
 	}
 
 	public UserModel postuser(UserModel id) {
 		// TODO Auto-generated method stub
-		return urep.save(id);
+		return urepo.save(id);
 	}
 
 	public UserModel updateuser(UserModel id) {
 		// TODO Auto-generated method stub
-		return urep.saveAndFlush(id);
+		return urepo.saveAndFlush(id);
 	}
 
 	public void deleteid(int id) {
 		// TODO Auto-generated method stub
-		urep.deleteById(id);
+		urepo.deleteById(id);
 	}
 }
